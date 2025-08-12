@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping("/hi")
     public ResponseEntity<MessageDto> hi() {
-        return ResponseEntity.ok(new MessageDto("hi"));
+        return ResponseEntity.ok(new MessageDto("hi jawahar"));
     }
 
     @GetMapping("/hello")
